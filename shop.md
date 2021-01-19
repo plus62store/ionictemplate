@@ -5,4 +5,4 @@ image: assets/icons/512x512.png
 permalink: /shop.html
 ---
 
-{% include store.html %}
+{% include product.html %}
