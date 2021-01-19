@@ -253,6 +253,16 @@ section.banner {
       navigator.serviceWorker.register('/sw.js');
     });
   }
+  
+  else
+  
+if ('serviceWorker' in navigator) {
+  caches.keys().then(function(cacheNames) {
+    cacheNames.forEach(function(cacheName) {
+      caches.delete(cacheName);
+    });
+  });
+}
 </script>
   </body>
 </html>
