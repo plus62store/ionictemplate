@@ -1,0 +1,21 @@
+{
+ "name": "Plus62Store Lite",
+ "short_name": "plus62store",
+ "description": "Jual Produk & Jasa Bordir Tasikmalaya",
+ "lang": "id",
+ "dir": "ltr",
+ "theme_color": "#fff",
+ "start_url": ".",
+ "background_color": "#fff",
+ "display": "standalone",
+ "orientation": "portrait-primary",
+ "icons": [{
+   "src": "assets/icons/128x128.png",
+   "sizes": "128x128",
+   "type": "image/png"
+  }, {
+   "src": "assets/icons/512x512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }]
+}

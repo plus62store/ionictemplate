@@ -1,0 +1,34 @@
+---
+layout: default
+---
+<style>
+section.banner {
+display:none!important;
+}
+</style>
+<ion-row>
+<div class="col-sm-12 col-md-8">
+      <ion-card>
+        <ion-card-header>
+  <h3>{{ page.title }}</h3>
+        </ion-card-header>
+        <ion-card-content>
+    {{ content }}
+        </ion-card-content>
+      </ion-card>
+	  </div>
+<div class="col-sm-12 col-md-4">
+<div  class="cicing">
+      <ion-card>
+        <ion-card-header>
+	  <img src="{{ site.baseurl }}/{{ page.image }}"/>
+          <ion-card-title>
+		  <center>{{ page.title }}</center>
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+	  <ion-card>
+	  </div>
+
+	  </div>
+  </ion-row>

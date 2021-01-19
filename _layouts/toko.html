@@ -1,0 +1,52 @@
+---
+layout: default
+title: Front Store
+---
+<style>
+#main {
+    margin-top: 45px;
+    height: auto;
+}
+.wrapper-masthead {
+display: none!important;
+}
+.cicing {
+    display: contents;
+    width: 330px;
+}
+.etalase {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+}
+</style>
+    {% include banner.html %}
+<ion-row>
+<div class="col-sm-12 col-md-8 etalase">
+    {{ content }}
+	  </div>
+<div class="col-sm-12 col-md-4">
+<div  class="cicing">
+      <ion-card>
+        <ion-card-header>
+	  <img src="{{ site.baseurl }}/images/404.jpg"/>
+          <ion-card-title>
+		  <center>{{ page.title }}</center>
+          </ion-card-title>
+        </ion-card-header>
+      </ion-card>
+	  <ion-card>
+  <ion-item href="/" class="ion-activated">
+    <ion-icon name="arrow-undo-circle-outline" slot="start"></ion-icon>
+    <ion-label>Kembali ke Blog</ion-label>
+  </ion-item>
+  <ion-item href="/pembayaran" class="ion-activated">
+    <ion-icon name="cash-outline" slot="start"></ion-icon>
+    <ion-label>Pembayaran</ion-label>
+  </ion-item>
+  <ion-item href="/privacy-policy" class="ion-activated">
+    <ion-icon name="shield-checkmark-outline" slot="start"></ion-icon>
+    <ion-label>Kebijakan Toko</ion-label>
+  </ion-item>
+	  </div>
+	  </div>
+  </ion-row>

@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+      <ion-card>
+	  <img src="{{ site.baseurl }}/{{ post.image }}"/>
+        <ion-card-header>
+          <ion-card-title>
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1></ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
+        </ion-card-content>
+	<a  href="{{ site.baseurl }}{{ post.url }}">
+      <ion-button class="more">
+      <span class="read-more" onclick="handleButtonClick()">Read More</span>
+	  </ion-button></a>
+      </ion-card>
+    </article>
+  {% endfor %}
+</div>

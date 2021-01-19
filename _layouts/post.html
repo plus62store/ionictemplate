@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<style>
+section.banner {
+display:none!important;
+}
+.cicing {
+    position: fixed;
+    width: 330px;
+}
+p {
+    margin: 15px 0;
+    text-align: justify;
+}
+</style>
+<ion-row>
+<div class="col-sm-12 col-md-8">
+
+  <h2>{{ page.title }}</h2>
+        <ion-chip>
+          <ion-icon name="checkmark-circle"></ion-icon>
+          <ion-label>
+    {{ page.date | date: "%B %e, %Y" }}</ion-label>
+        </ion-chip>
+    {{ content }}
+
+
+  {% include disqus.html %}
+  
+	  </div>
+<div class="col-sm-12 col-md-4">
+<div  class="cicing">
+      <ion-card>
+        <ion-card-header>
+	  <img src="{{ site.baseurl }}/{{ page.image }}"/>
+          <ion-card-title>
+		  <center>{{ page.title }}</center>
+          </ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+        {{ page.sumber }}
+        </ion-card-content>
+      </ion-card>
+	  <ion-card>
+	  </div>
+	  </div>
+  </ion-row>
