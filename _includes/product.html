@@ -2,18 +2,20 @@
 html#ecwid_html body#ecwid_body
 .ecsp.ecsp-SingleProduct-v2 .gwt-Image {
     width: 100%!important;
-    max-width: 300px!important;
+    max-width: 330px!important;
     border-radius: 8px!important;
 }
 
 .produk {
     display: flex;
     flex-wrap: nowrap;
+}
     
   @include mobile {
-    flex-wrap: wrap;
+      .produk {
+          flex-wrap: wrap;
+      }
   }
-}
 </style>
 <ion-button href="/shop">Semua Produk <ion-icon name="chevron-forward-circle-outline"></ion-icon></ion-button>
 <br/>
