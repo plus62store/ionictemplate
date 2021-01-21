@@ -183,9 +183,11 @@ section.banner {
           </nav>
         </header>
       </div>
+  {% for post in site.posts %}
         <div class="container">
 	  {% include product.html %}
 	</div>
+  {% endfor %}
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
