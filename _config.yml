@@ -11,9 +11,9 @@ description: BlogStore from Somewhere
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: /assets/icons/128x128.png
 
-#
-# Flags below are optional
-#
+adsense: "enable"
+adsense-data-ad-client: "ca-pub-3412143450191416"
+adsense-data-ad-slot: "1363087678"
 
 # Includes an icon in the footer for each username you enter
 footer-links:

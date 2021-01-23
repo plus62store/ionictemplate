@@ -141,22 +141,17 @@ section.banner {
         background-color: grey;
         color: white;
     }
+		
   </style>  
 	<link rel="stylesheet" type="text/css" href="/style.css" />
     <link rel="alternate" type="application/rss+xml" title="plus62store - BlogStore from Somewhere" href="/feed.xml" />
     <link rel="manifest" href="/manifest.json">
-<<<<<<< HEAD
+	  
 <script data-ad-client="ca-pub-1171588080744378" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-=======
-    <script data-ad-client="ca-pub-1171588080744378" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
->>>>>>> 881dde38ac1ca2451c43d313c2f42a5e7fde9f9f
+	  
   <script type="module">
     import { loadingController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
     window.loadingController = loadingController;
-  </script>
-  <script type="module">
-    import { popoverController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
-    window.popoverController = popoverController;
   </script>
   <script type="module">
     import { modalController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
@@ -203,7 +198,7 @@ section.banner {
           </nav>
         </header>
       </div>
-	  
+	    
     <div id="main" role="main" class="container">
       <style>
 section.banner {
@@ -331,46 +326,8 @@ p {
       await loading.present();
     }
   </script>
+  
   <script>
-    let currentPopover = null;
-
-    const buttons = document.querySelectorAll('ion-shop');
-    for (var i = 0; i < buttons.length; i++) {
-      buttons[i].addEventListener('click', handleButtonClick);
-    }
-
-    async function handleButtonClick(ev) {
-      popover = await popoverController.create({
-        component: 'popover-example-page',
-        event: ev,
-        translucent: true
-      });
-      currentPopover = popover;
-      return popover.present();
-    }
-
-    function dismissPopover() {
-      if (currentPopover) {
-        currentPopover.dismiss().then(() => { currentPopover = null; });
-      }
-    }
-
-    customElements.define('popover-example-page', class ModalContent extends HTMLElement {
-      connectedCallback() {
-        this.innerHTML = `
-          <ion-list>
-            <ion-list-header>my BlogStore</ion-list-header>
-            <a href="/shop"><ion-item button>Pergi Ke Toko</ion-item></a>
-            <a href="/payment"><ion-item button>Pembayaran</ion-item></a>
-            <a href="/delevery"><ion-item button>Pengiriman</ion-item></a>
-            <a href="/privacy-policy"><ion-item button>Kebijakan Toko</ion-item></a>
-            <ion-item lines="none" detail="false" button onClick="dismissPopover()">Tutup</ion-item>
-          </ion-list>
-        `;
-      }
-    });
-  </script>
-<script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
       navigator.serviceWorker.register('/sw.js');

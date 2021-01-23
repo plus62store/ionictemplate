@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Perbedaan 3 Kemasan Vaksin COVID-19
+title: 3 Kemasan Vaksin COVID-19
 image: images/kemasan-vaksin-covid19.jpg
 sumber: Sumber Berita  https://covid19.go.id/berita/perbedaan-3-kemasan-vaksin-covid-19
 excerpt_separator: <!--more-->
 ---
 
-Jangan kaget kalau melihat ada informasi tentang 3 kemasan vaksin COVID-19 dari Sinovac yang berbeda-beda!<!--more--> Kemasan yang berbeda tersebut menandakan tiga tahapan yang berbeda.
+Jangan kaget kalau melihat ada informasi tentang 3 kemasan vaksin COVID-19 dari Sinovac<!--more--> yang berbeda-beda! Kemasan yang berbeda tersebut menandakan tiga tahapan yang berbeda.
 
 ![kemasan vaksin covid-19]({{ site.baseurl }}/images/Perbedaan-3-Kemasan-Vaksin-COVID-19-1.jpeg)
 

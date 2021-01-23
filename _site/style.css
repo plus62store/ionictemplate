@@ -331,6 +331,10 @@ nav a {
   color: #f8f9fa;
 }
 
+.post .thumb {
+  height: 238px;
+}
+
 .post .more {
   float: right;
   margin: 10px;
