@@ -284,6 +284,11 @@ nav {
 
 .thumb {
     height: 238px;
+	
+  @include mobile {
+    height: auto;
+  
+  }
 }
 .more {
     float: right;
